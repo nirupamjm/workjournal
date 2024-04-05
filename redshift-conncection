@@ -2,6 +2,9 @@ https://docs.aws.amazon.com/redshift/latest/mgmt/rsql-query-tool-getting-started
 
 install odbc driver manager
 install redshift driver
+
+yum install -y wget http://
+
 configure env variables in /etc/profile.d/any_name.sh // set env variables for everyone use this method. for setting env variable use ~/.bashrc
 
 use rsql command with the parameters as redsshift details
